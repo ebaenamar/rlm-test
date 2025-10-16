@@ -1,6 +1,12 @@
 # Recursive Language Models (RLM) - OpenRouter Implementation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![OpenRouter](https://img.shields.io/badge/API-OpenRouter-green.svg)](https://openrouter.ai)
+
 Implementation of **Recursive Language Models** based on the research from [alexzhang13.github.io/blog/2025/rlm/](https://alexzhang13.github.io/blog/2025/rlm/) using the OpenRouter API.
+
+> **TL;DR**: RLMs solve the long-context problem by storing context as a variable and letting LMs interact with it programmatically. Result: 2x better accuracy at lower cost, scales to 10M+ tokens.
 
 ## 📚 What are Recursive Language Models?
 
